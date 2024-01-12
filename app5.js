@@ -2,7 +2,7 @@
  * Level Five Authentication
  * Create hashes from passwords, and store 
  * the hashes instead of plaintext or encrypted passwords.
- * Use the industry standard bcrypt for creating hashes, which also uses
+ * Use bcrypt for creating hashes, which also uses
  * the technique of salting to make even weak password difficult to decrypt
  * using hash tables.
  * We use multiple rounds of salting (10 in this template).
